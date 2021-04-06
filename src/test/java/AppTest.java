@@ -119,7 +119,7 @@ public class AppTest {
     }
 
     @Test
-    public void tc_4_BigBangGrade() {
+    public void tc_4_AddGradeBigBangIntegration() {
         studentValidator = new StudentValidator();
         temaValidator = new TemaValidator();
 
