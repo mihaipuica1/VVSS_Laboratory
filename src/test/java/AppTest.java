@@ -26,7 +26,7 @@ public class AppTest {
     private TemaValidator temaValidator;
 
     @Test
-    public void tc_1_StudentGroupValid() {
+    public void tc_1_AddStudent() {
 
         studentValidator = new StudentValidator();
         temaValidator = new TemaValidator();
@@ -55,7 +55,7 @@ public class AppTest {
     }
 
     @Test
-    public void tc_2_AssignmentValid() {
+    public void tc_2_AddAssignment() {
         studentValidator = new StudentValidator();
         temaValidator = new TemaValidator();
 
@@ -85,7 +85,7 @@ public class AppTest {
     }
 
     @Test
-    public void tc_3_GradeValid() {
+    public void tc_3_AddGrade() {
         studentValidator = new StudentValidator();
         temaValidator = new TemaValidator();
 
@@ -119,7 +119,7 @@ public class AppTest {
     }
 
     @Test
-    public void tc_4_BigBangGrades() {
+    public void tc_4_BigBangGrade() {
         studentValidator = new StudentValidator();
         temaValidator = new TemaValidator();
 
